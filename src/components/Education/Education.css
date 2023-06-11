@@ -1,0 +1,103 @@
+
+.education-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+ 
+  .education{
+    display: inline-block;
+    /* margin-bottom: 1.3rem; */
+  
+   }
+  
+  .education-item {
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.26);
+    border: 6px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 29px;
+    display: inline-block;
+    width:350px;
+    height: 8rem;
+    margin: .5rem;
+
+  }
+  .education-items {
+    position: relative;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.26);
+    border: 6px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 29px;
+    width: 39rem;
+    /* height: 6rem; */
+    /* padding: 50px; */
+    margin-bottom: .7rem;
+  }
+
+
+
+  .education-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  .education-items:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .education-item::before {
+    /* content: ""; */
+    position: absolute;
+    /* top: -10px; */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+
+    /* border-style: solid; */
+    /* border-width: 0 10px 10px 10px; */
+    /* border-color: transparent transparent #0077b6 transparent; */
+  }
+  .education-items::before {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+  }
+  
+  .school {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .degree {
+    font-size: 18px;
+    /* font-style: italic; */
+    margin-bottom: 5px;
+  }
+  
+  .date {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    line-height: 1.5;
+  }
